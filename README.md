@@ -6,3 +6,4 @@ The other factors such as passengers, occupation, age, widowed or not, do not ha
 Income less than 50K also significantly reduced the acceptance rate.
 
 file:
+https://github.com/xiaohuili-sv/home/blob/UCBerkeleyAIML/assignment5_1_starter/prompt.ipynb
