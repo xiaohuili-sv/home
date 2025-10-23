@@ -1,3 +1,1 @@
-# Hello World
-
-test the world
+This is for the assignment of UC Berkeley AI/ML certificate
