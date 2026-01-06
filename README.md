@@ -24,3 +24,8 @@ I did perform Linear regression, degree 2, degree 3, degree 4 and degress 5 Poly
 # Summary of Linear, Lasso, Ridge Regression Comparison:
 With the degree 3 Polynomial transformation, we did Linear regression, Lasso regression and Ridge regression. The results are very similar. For this issue, there is no much difference for the three methods.
 
+# Feature Importance of Polynomial Degree 3 Ridge model
+![feature_importance](./images/Feature_Importance.jpg)
+
+# Further discussion
+There are limits on this model. From the business point of view, it does not tell the profitability of the car. A car of high value does not necessarily mean high profitability. For the business objective, a profitability model would include the trade-in value, a dealer selling price, turn around period etc. There are area to improve this model. Logarithmic transformation may yield more accurate result for inference tha a polynomial model.
