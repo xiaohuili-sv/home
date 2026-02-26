@@ -19,14 +19,21 @@ K Nearest Neighbor
 Decision Trees
 and Support Vector Machines.
 
-10 factors are used a features for the models:
+10 columns are selected as features for the models:
 
 feature_cols = ['job', 'marital', 'education', 'default', 'housing','loan', 'contact','month','day_of_week','poutcome']
 
 X=df[feature_cols]
 y=df['deposit']
 
-A Baseline Model
+# A Baseline Model
 A dummy classifier is used as a Baseline Model.
 ![distribution](./images/conf_matrix_Dummy.jpg)
 
+# Comparison of the 4 models with default values
+![distribution](./images/comparison_4_models_default.jpg)
+
+# Comparison of the 4 models after GridSearch
+![distribution](./images/comparison_4_models_GridSearch.jpg)
+
+The dataset is heavily unbalanced to the unsuccessful marketing campaign. Maybe the models would be more useful to determine features which makes the campaign more unsuccessful.
