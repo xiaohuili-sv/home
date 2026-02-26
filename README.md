@@ -28,6 +28,7 @@ y=df['deposit']
 
 # A Baseline Model
 A dummy classifier is used as a Baseline Model.
+
 ![distribution](./images/conf_matrix_Dummy.jpg)
 
 # Comparison of the 4 models with default values
