@@ -19,7 +19,8 @@ K Nearest Neighbor
 Decision Trees
 and Support Vector Machines.
 
-10 factors are used a features for the 
+10 factors are used a features for the models:
+
 feature_cols = ['job', 'marital', 'education', 'default', 'housing','loan', 'contact','month','day_of_week','poutcome']
 
 X=df[feature_cols]
@@ -27,4 +28,5 @@ y=df['deposit']
 
 A Baseline Model
 A dummy classifier is used as a Baseline Model.
+![distribution](./images/conf_matrix_Dummy.jpg)
 
