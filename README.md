@@ -9,7 +9,7 @@ The techniques that I am planning to use are:
 Logistic Regression, Decision Trees, Random Forest, Neural Networks\
 Evaluation method: accuracy, precision, recall, F1-score
 
-##Summary of Losgistic Regress Base Model\
+## Summary of Losgistic Regress Base Model\
 with a total of 56962 test samples, the matrix shows a highly imbalanced dataset with "0 - non-fraud" class predicted with high accuracy but the "1 - fraud" class is more difficult for the Logistic Regression model to capture.
 
 True Negative (56,864): the modelcorrectly identified majority of the "0 - non-fraud" class.\
