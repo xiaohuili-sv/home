@@ -15,7 +15,7 @@ with a total of 56962 test samples, the matrix shows a highly imbalanced dataset
 True Negative (56,864): the modelcorrectly identified majority of the "0 - non-fraud" class.\
 True Positive (55): The model correctly identified 55 instances of the target class.\
 False Positive (10): the model predicted the target class when it was not there (Type I error).\
-False Negative (43): the model missed 43 actual cases of target class(Type II error).\
+False Negative (43): the model missed 43 actual cases of target class(Type II error).
 
 Precision (85%): when the model predicts "positive", it is right for about 85% of times.\
 Recall (56%): the model only caught 56% of all actual "Positive" cases.\
