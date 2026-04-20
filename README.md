@@ -26,6 +26,7 @@ Precision (85%): when the model predicts "positive", it is right for about 85% o
 Recall (56%): the model only caught 56% of all actual "Positive" cases.\
 F1-score (67%), this is the balance between precision and recall. A score of 0.67 suggests there is room to improve the model's ability to find the minority class without increacing false alarm.
 
+## next steps:
 For the final Capstone project, I plan to implement more advanced machine learning models, including Decision Trees, Random Forest, Support Vector Machines (SVM), Neural Networks, Gradient Boosting models, and Anomaly Detection techniques.
 
 To evaluate model performance, I will use multiple metrics, including accuracy, precision, recall, F1-score, and Precision-Recall Area Under the Curve (PR AUC). These evaluation methods are particularly important for credit card fraud detection due to the highly imbalanced nature of the dataset, where fraudulent transactions represent only a small portion of the data.
