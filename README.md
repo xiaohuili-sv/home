@@ -30,3 +30,5 @@ F1-score (67%), this is the balance between precision and recall. A score of 0.6
 For the final Capstone project, I plan to implement more advanced machine learning models, including Decision Trees, Random Forest, Support Vector Machines (SVM), Neural Networks, Gradient Boosting models, and Anomaly Detection techniques.
 
 To evaluate model performance, I will use multiple metrics, including accuracy, precision, recall, F1-score, and Precision-Recall Area Under the Curve (PR AUC). These evaluation methods are particularly important for credit card fraud detection due to the highly imbalanced nature of the dataset, where fraudulent transactions represent only a small portion of the data.
+
+[Link to the Jupyter Notebook.](https://github.com/xiaohuili-sv/home/blob/UCBerkeleyAIML/Capstone_20_1_EDA/Capstone20_1_EDA.ipynb)
