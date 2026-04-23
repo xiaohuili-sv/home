@@ -26,9 +26,13 @@ Precision (85%): when the model predicts "positive", it is right for about 85% o
 Recall (56%): the model only caught 56% of all actual "Positive" cases.\
 F1-score (67%), this is the balance between precision and recall. A score of 0.67 suggests there is room to improve the model's ability to find the minority class without increacing false alarm.
 
-## next steps:
-For the final Capstone project, I plan to implement more advanced machine learning models, including Decision Trees, Random Forest, Support Vector Machines (SVM), Neural Networks, Gradient Boosting models, and Anomaly Detection techniques.
+![distribution](./images/10-Comparison-9-models.png)
 
-To evaluate model performance, I will use multiple metrics, including accuracy, precision, recall, F1-score, and Precision-Recall Area Under the Curve (PR AUC). These evaluation methods are particularly important for credit card fraud detection due to the highly imbalanced nature of the dataset, where fraudulent transactions represent only a small portion of the data.
+## Summary of 9 classification models
+Five base models were developed and evaluated. Due to the high computational cost of the SVM base model, Grid Search optimization was limited to the other four: Logistic Regression, Random Forest, KNN, and the MLP Classifier.
 
-[Link to the Jupyter Notebook.](https://github.com/xiaohuili-sv/home/blob/UCBerkeleyAIML/Capstone_20_1_EDA/Capstone20_1_EDA.ipynb)
+The optimized Random Forest showed improved Average Precision and Average Recall over its base version. However, this gain came at the expense of robustness, with the Average Threshold dropping significantly from 0.5066 to 0.0834. Similarly, the KNN and MLP Classifier saw slight performance boosts. By utilizing class_weight='balanced', these models prioritized fraud detection (Recall) over Precision, resulting in more false positives and a slight dip in overall Accuracy—a common trade-off in imbalanced datasets where Average Precision is a sensitive metric.
+
+A consistent observation across these experiments was the inverse relationship between the decision threshold and recall: as recall improved, the threshold tended to decrease. This suggests that for any given model, the threshold must be specifically tuned to meet a particular Recall target.
+
+[Link to the Jupyter Notebook.](https://github.com/xiaohuili-sv/home/blob/UCBerkeleyAIML/Capstone_24_final/Capstone24_final.ipynb)
